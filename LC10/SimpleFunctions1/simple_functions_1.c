@@ -13,12 +13,7 @@
 */
 
 
-float CalculateAreaOfCircle ( float radius )
-{
-	float area;
-	area = M_PI * radius * radius ;
-	return (area) ;
-}
+float CalculateAreaOfCircle ( float radius );
 
 
 /* Show use of function  */
@@ -44,4 +39,11 @@ int main (void)
 
 	// All done
 	return 0;
+}
+
+float CalculateAreaOfCircle ( float radius )
+{
+	float area;
+	area = M_PI * radius * radius ;
+	return (area) ;
 }

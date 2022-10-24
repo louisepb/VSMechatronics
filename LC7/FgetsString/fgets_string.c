@@ -8,13 +8,13 @@
 int main()
 {
 
-  char MyName[50];              /* Define a string of 10 characters */
+  char MyName[11];              /* Define a string of 10 characters */
 
 
   /* A string */
 
   printf("\nPlease enter your name & press return ");
-  fgets(MyName, 80, stdin);
+  fgets(MyName, 11, stdin);
   printf("\nHello %s ",MyName);
 
   return 0;     /* End of the program   */

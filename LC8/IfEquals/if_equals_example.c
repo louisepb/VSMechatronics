@@ -1,4 +1,4 @@
-/* EEEE1001/H61CAE Chapter 8 */
+/* MMME3085 Chapter 8 */
 
 /* Incorrect use of a single equals sign in an if statement */
 

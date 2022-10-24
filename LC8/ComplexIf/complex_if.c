@@ -1,4 +1,4 @@
-/* EEEE1001/H61CAE Chapter 8 */
+/* MMME3085 Chapter 8 */
 
 /* Example of a simple if statements */
 

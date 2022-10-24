@@ -6,6 +6,7 @@ int main(void)
     // declare variable
     char c;
 
+    printf("Input a character: ");
     // Wait for a kepypress, store result in c
     c = getchar();
 

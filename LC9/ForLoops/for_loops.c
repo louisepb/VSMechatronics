@@ -29,6 +29,7 @@ int main(void)
   for ( j = 0 ; j < 10 ; j++ )
     printf("\nThe value of j is %d",j );
 
+  printf("\nThe value of j after increment loop is %d",j);
 
   /* The count down loop */
 
@@ -36,6 +37,7 @@ int main(void)
   for ( j = 10 ; j > 0 ; j-- )
     printf("\nThe value of j is %d",j );
 
+  printf("\nThe value of j after decrement loop is %d",j);
 
   return 0;
 

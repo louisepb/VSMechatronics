@@ -32,8 +32,8 @@ int main (void)
 	// Prompt for and obtain values
 	printf ("Please enter the radius of the cylinder: ");
 	scanf ("%f", &rad);
-ad
-    	printf ("Please enter the length of the cylinder: ");
+
+    printf ("Please enter the length of the cylinder: ");
 	scanf ("%f", &len);
 
 	// Use our function to calculate the area

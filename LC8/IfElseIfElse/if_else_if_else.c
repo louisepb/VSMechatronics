@@ -11,7 +11,7 @@
 int main( void )
 {
 
-    int x = 55;	// Define and intialise variable
+    int x = 3;	// Define and intialise variable
 
 
     if ( x == 2 )

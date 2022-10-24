@@ -8,7 +8,7 @@
 int main( void )
 {
 
-  char MyName[50];              /* Define a string of 10 characters */
+  char MyName[10];              /* Define a string of 10 characters */
 
 
   /* A string */

@@ -12,7 +12,7 @@ int main( void )
 {
 
     char c;									/* Define an char */
-    c = getch();						    /* Get value - no return required*/
+    c = getch();						    /* Get value */
 
     switch (c)								/* Start of switch */
     {
