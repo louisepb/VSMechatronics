@@ -17,7 +17,7 @@
 int main(void)
 {
    int *ipArray = NULL;         /* Create the pointer and set   */
-				/* to null to start with        */
+	 /* to null to start with        */
    int iSize = 0;               /* Define our 'size' variable   */
 
    int i;                       /* A Loop variables             */

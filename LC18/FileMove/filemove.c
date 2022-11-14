@@ -30,10 +30,13 @@ int main(void)
 	 fseek (fptr, Locn, SEEK_SET);
 	 
 	 /* And read a single integer in */
-	 fread (&ValRead, sizeof(int), 1, fptr );
-	 
-	 /* Display the read value */
-	 printf ("Item %d is %d\n",Item,ValRead);
+	 if (fread (&ValRead, sizeof(int), 1, fptr ) == 1)
+	 {
+		/* Display the read value */
+		printf ("Item %d is %d\n",Item,ValRead);
+	 }
+	 else
+	 	printf("Failed to read at location %d\n", Item);
 								   
 	 /* And close */
 	 fclose (fptr); 

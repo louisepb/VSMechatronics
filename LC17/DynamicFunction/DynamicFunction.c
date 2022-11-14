@@ -59,10 +59,12 @@ int main(void)
     /* Store the base memory address for use later */
     ipStartValue = ipArray;
 
-    /* Populate the array (Method 2 - Use Pointers: This is much faster !) */
+    /* Populate the array ( Use Pointers: This is much faster !) */
     for ( i = 0 ; i < iSize ; i++ )
-        ipArray[i] = i;
-
+        *ipArray++ = i;
+        
+    // Reset ipArray to start
+    ipArray = ipStartValue;
     /* Display the sum of the values in the array */
 
     printf("\nThe sum of the array values is %d ",Sum(ipArray,iSize) );

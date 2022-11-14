@@ -6,6 +6,8 @@
 //global integer constant
 const int Y = 10;
 
+void func();
+
 int main()
 {
 	//local integer constant`
@@ -15,11 +17,17 @@ int main()
 	printf("Value of Y: %d\n", Y);
 	printf("Value of Z: %d\n", Z);
 
-//	#undef X
-//	#define X 300
-//	printf("Value of X: %d\n", X);
+	func();
 
-//  Y = 30;
+  	//Y = 30;
+	Z = 40;
 
 	return 0;
+}
+
+void func()
+{
+	int Z = 40;
+	printf("Value of Z in function = %d\n", Z);
+	//Y = 30;
 }

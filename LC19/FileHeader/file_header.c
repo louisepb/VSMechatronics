@@ -55,11 +55,11 @@ int main()
 
  /* Update the values in the structure */
  MyRecord.NoItems = items;
- MyRecord.NoItems = (float)sum / (float)items;
+ MyRecord.average = (float)sum / (float)items;
 
  /* rewind the file to write the structure again */
  fseek(fptr, SEEK_SET, 0);
- rewind (fptr);
+ //rewind (fptr);   // This is an alternative to the previous line
 
  /* This line does the writing of the structure */
  fwrite ( &MyRecord, sizeof(struct MyStruct), 1, fptr);

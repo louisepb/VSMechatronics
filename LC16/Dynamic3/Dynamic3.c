@@ -46,6 +46,7 @@ int main(void)
    /* Populate the array (Method 2 - Use Pointers: This is much faster !) */
    for ( i = 0 ; i < iSize ; i++ )
      *ipArray++ = iSize - i;
+     
 
    /* Reset the pointer to the origin of the array */
    ipArray = ipStartValue;

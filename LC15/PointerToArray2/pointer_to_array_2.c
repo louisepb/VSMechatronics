@@ -19,14 +19,13 @@ int main(void) // Main : Execution starts here...
     for  ( i = 0 ; i < 10 ; i++ )
         printf ("Item %d contains value %d\n", i, pArray[i] );
 
-    printf ("Pointer method 1\n");
+    printf ("Pointer method 2 using index\n");
     for  ( i = 0 ; i < 10 ; i++ )
         printf ("Item %d contains value %d\n", i, *(pArray+i) );
 
     printf ("Pointer method 2 (only works for moving sequentially\n");
     for  ( i = 0 ; i < 10 ; i++ )
         printf ("Item %d contains value %d\n", i, *pArray++ );
-
 
     // Exit the application
     return 0;

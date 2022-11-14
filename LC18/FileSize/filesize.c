@@ -3,7 +3,7 @@
 
 /* Example 3 - jumping & getting element count */
 
-main()
+int main()
 {
 
  long FileBytes;
@@ -27,7 +27,7 @@ main()
  FileBytes = FileBytes / sizeof(int);
  
  /* Display the read value */
- printf ("No. of items in file is %d\n",FileBytes);
+ printf ("No. of items in file is %ld\n",FileBytes);
                                
  /* And close */
  fclose (fptr); 

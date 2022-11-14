@@ -13,7 +13,7 @@ int main(void)
 
    struct DataSet	MyPoints[5];	/* Define array of structure,   */
 					/* 	type DataSet 		*/
-					/*	Elements : 10 		*/
+					/*	Elements : 5 		*/
 
    int i;				/* Define an integer */
 
@@ -21,17 +21,17 @@ int main(void)
 
    for ( i = 0 ; i < 5 ; i++ )		/* Populate structure */
    {
-	MyPoints[i].x = i;
-	MyPoints[i].y = i*i;
+      MyPoints[i].x = i;
+      MyPoints[i].y = i*i;
    }
 
    printf("\nThe dataset values are ");	/* Display message & Values */
 
    for ( i = 0 ; i < 5 ; i++ )
    {
-	printf("\n\t Set %d : ",i);
-	printf("\t X = %d ",MyPoints[i].x);
-	printf("\t Y = %d ",MyPoints[i].y);
+      printf("\n\t Set %d : ",i);
+      printf("\t X = %d ",MyPoints[i].x);
+      printf("\t Y = %d ",MyPoints[i].y);
    }
 
 

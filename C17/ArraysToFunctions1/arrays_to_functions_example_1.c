@@ -13,7 +13,7 @@ void PopulateTheArray ( int Size, int ArrayData[])
 }
 
 
-// Simple function do display contents an integer array
+// Simple function to display contents of an integer array
 void DisplayTheArray ( int Size, int ArrayData[])
 {
     int i;      // Variable to use in our loop
