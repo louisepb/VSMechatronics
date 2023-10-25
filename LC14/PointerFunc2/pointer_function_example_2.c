@@ -1,11 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
+#define _USE_MATH_DEFINES
 #include <math.h>
 
 // As we are using the function BEFORE it is actually written we need to provide the
 // prototype so that the compiler can verify we are calling it correctly
 
-void CalculateVolumeAndSA ( double Radius, double Length, double *Volume, double *SurfaceArea);  // note the ‘*’
+void CalculateVolumeAndSA ( double Radius, double Length, double *Volume, double *SurfaceArea);  // note the ï¿½*ï¿½
 
 // This is the main code for our application
 
@@ -24,7 +25,7 @@ int main()
 
 // And here is our function
 
-void CalculateVolumeAndSA ( double Radius, double Length, double *Volume, double *SurfaceArea)  // note the ‘*’
+void CalculateVolumeAndSA ( double Radius, double Length, double *Volume, double *SurfaceArea)  // note the ï¿½*ï¿½
 {
     *Volume = M_PI * Radius * Radius * Length;
     *SurfaceArea = ( 2 * M_PI * Radius * Radius * Length ) +( 2 * M_PI * Radius * Length );

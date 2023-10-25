@@ -6,7 +6,7 @@ int main (void )
     // Declare a in integer
     int c,d;
 
-	// Declar and integer pointer
+	// Declare an integer pointer
 	int *ptrC;
 
 	// Some assgnments

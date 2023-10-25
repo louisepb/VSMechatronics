@@ -20,7 +20,8 @@ int main()
 	func();
 
   	//Y = 30;
-	Z = 40;
+	//Z = 40;
+	//X = 20;
 
 	return 0;
 }
