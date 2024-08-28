@@ -4,7 +4,7 @@
 // Main () - execution starts here
 int main (void)
 {
-    // Declate file stream variables
+    // Declare file stream variables
     FILE *fInput, *fOutput;
 
     // Other variables needed
@@ -39,14 +39,12 @@ int main (void)
         printf ("\nthe file could not be opened for reading, exiting");
         return -1;
     }
-
+ 
     // Read, line by line the 10 values written into variable d
     // and then display the contents of d on the screen
-    while (1)
+    for ( i = 1 ; i <= 10 ; i++)
     {
         fscanf (fInput, "%d", &d);
-        if ( feof(fInput))
-            break;
         printf ("Value read from file %d\n",d);
     }
 

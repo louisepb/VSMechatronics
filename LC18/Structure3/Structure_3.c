@@ -13,11 +13,11 @@ int main(void)
 
    struct DataSet	MyPoints[5];	/* Define array of structure,   */
 					/* 	type DataSet 		*/
-					/*	Elements : 10 		*/
+					/*	Elements : 5 		*/
 
    struct DataSet	CpPoints[5];	/* Define array of structure,   */
 					/* 	type DataSet 		*/
-					/*	Elements : 10 		*/
+					/*	Elements : 5 		*/
 
    int i;				/* Define an integer */
 

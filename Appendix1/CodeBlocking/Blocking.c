@@ -5,7 +5,7 @@
 int main(void)
 { 
     int i = 0; 
-    int limit = 19;  /* could be anything */ 
+    int limit = 20;  /* could be anything */ 
     int blocklimit; 
 
     /* The limit may not be divisible by BLOCKSIZE, 

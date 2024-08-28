@@ -29,7 +29,7 @@ int main (void)
     // And close the file
     fclose (fOutput);
 
-    // Try and open the binary "numbers " (in the current directory) file for reading
+    // Try and open the text "numbers " (in the current directory) file for reading
 
     fInput = fopen ("numbers.txt", "r");
 
@@ -39,12 +39,14 @@ int main (void)
         printf ("\nthe file could not be opened for reading, exiting");
         return -1;
     }
- 
+
     // Read, line by line the 10 values written into variable d
     // and then display the contents of d on the screen
-    for ( i = 1 ; i <= 10 ; i++)
+    while (1)
     {
         fscanf (fInput, "%d", &d);
+        if ( feof(fInput))
+            break;
         printf ("Value read from file %d\n",d);
     }
 

@@ -3,9 +3,9 @@
 
 struct MyStruct
 {
-        int NoItems;
+    int NoItems;
 		int max;
-        float average;
+    float average;
 };
 
 int main()
@@ -57,8 +57,8 @@ int main()
  MyRecord.average= (float)sum / (float)items;
 
  /* rewind the file to write the structure again */
- fseek(fptr, SEEK_SET, 0);
- rewind (fptr);
+ fseek(fptr, 0, SEEK_SET);
+ //rewind (fptr);
 
  /* This line does the writing of the structure */
  fwrite ( &MyRecord, sizeof(struct MyStruct), 1, fptr);
@@ -81,7 +81,7 @@ int main()
  printf ("Maximum = %d\n", MyRecord.max);
  printf ("Average is = %.2f\n", MyRecord.average);
 
- // Get how far to move for thr 10th item
+ // Get how far to move for the 10th item
  long Posn = sizeof (struct MyStruct) + (9 * sizeof(int));
 
  // Move
